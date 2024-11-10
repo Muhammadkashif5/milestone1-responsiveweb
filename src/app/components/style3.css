@@ -1,66 +1,65 @@
-/* Footer container */
+
 .footer-container {
-    background-color: #1a202c; /* bg-gray-900 equivalent */
-    color: white;
-    padding: 0.75rem 0; /* py-3 equivalent */
-    border-radius: 0.5rem 0.5rem 0 0; /* rounded-t-lg equivalent */
-    text-align: center;
-  }
-  
-  /* Footer text styles */
-  .footer-content {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .footer-text {
-    font-size: 1.125rem; /* text-lg equivalent */
-    font-family: serif;
-    font-style: italic;
-    margin-top: 0.25rem; /* mt-1 equivalent */
-  }
-  
-  .footer-name {
-    font-size: 1.25rem; /* text-1xl equivalent */
-    font-family: serif;
-    font-style: italic;
-    margin-top: 0.25rem; /* mt-1 equivalent */
-  }
-  
-  /* Social media icon styles */
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem; /* space-x-6 equivalent */
-    margin-top: 1rem; /* mt-4 equivalent */
-  }
-  
-  /* Individual social link styles */
-  .social-link {
-    transition: color 0.3s;
-  }
-  
-  .social-link.instagram {
-    color: #e1306c; /* text-pink-500 equivalent */
-  }
-  
-  .social-link.instagram:hover {
-    color: #db2777; /* hover:text-pink-400 equivalent */
-  }
-  
-  .social-link.linkedin {
-    color: #0077b5; /* text-blue-500 equivalent */
-  }
-  
-  .social-link.linkedin:hover {
-    color: #2563eb; /* hover:text-blue-400 equivalent */
-  }
-  
-  .social-link.email {
-    color: #d32f2f; /* text-red-500 equivalent */
-  }
-  
-  .social-link.email:hover {
-    color: #e57373; /* hover:text-red-400 equivalent */
-  }
-  
+background: linear-gradient(to right, #006994, #00bcd4);
+  color: white;
+  padding: 0.75rem 0;
+  border-radius: 0.5rem 0.5rem 0 0; 
+  text-align: center;
+}
+
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  font-size: 1.125rem; 
+  font-family: serif;
+  font-style: italic;
+  margin-top: 0.25rem; 
+}
+
+.footer-name {
+  font-size: 1.25rem;
+  font-family: serif;
+  font-style: italic;
+  margin-top: 0.25rem; 
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; 
+  margin-top: 1rem; 
+}
+
+
+.social-link {
+  transition: color 0.3s;
+}
+
+.social-link.instagram {
+  color: #e1306c;
+}
+
+.social-link.instagram:hover {
+  color: #db2777;
+}
+
+.social-link.linkedin {
+  color: #b6159b;
+}
+
+.social-link.linkedin:hover {
+  color: #25eb3f;
+}
+
+.social-link.email {
+  color: #d32f2f;
+}
+
+.social-link.email:hover {
+  color: #e57373;
+}

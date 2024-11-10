@@ -1,43 +1,38 @@
-/* Overall container styling */
 .home-container {
-    background-color: #e5e7eb; /* Equivalent to bg-gray-200 */
-    min-height: 100vh; /* Equivalent to min-h-screen */
-    padding: 2.5rem; /* Equivalent to p-10 */
-  }
-  
-  /* Content wrapper for flex layout */
-  .content-wrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-  
-  /* Left side: Home content styling */
-  .home-text {
-    width: 50%; /* Equivalent to w-1/2 */
-  }
-  
-  .home-title {
-    font-size: 2.25rem; /* Equivalent to text-4xl */
-    font-weight: bold;
-    margin-bottom: 1.5rem; /* Equivalent to mb-6 */
-  }
-  
-  .home-description {
-    text-align: justify;
-    font-size: 1.5rem; /* Equivalent to text-2xl */
-  }
-  
-  /* Right side: Image styling */
-  .home-image-container {
-    width: 50%; /* Equivalent to w-1/2 */
-    padding-left: 1.25rem; /* Equivalent to pl-5 */
-  }
-  
-  .home-image {
-    border-radius: 0.5rem; /* Equivalent to rounded-lg */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-lg */
-    width: 100%;
-    height: 16rem; /* Equivalent to h-64 */
-  }
-  
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  min-height: 100vh;
+  padding: 2.5rem;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.home-text {
+  width: 50%;
+}
+
+.home-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.home-description {
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.home-image-container {
+  width: 50%;
+  padding-left: 1.25rem;
+}
+
+.home-image {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 16rem;
+}

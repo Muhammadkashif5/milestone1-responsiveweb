@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
-import './style2.css';
+import React from "react";
+import Link from "next/link";
+import "./style2.css";
 
 export default function Navbar() {
   return React.createElement(
@@ -23,11 +23,11 @@ export default function Navbar() {
     React.createElement(
       'div',
       { className: 'navbar-links' },
-      React.createElement(Link, { href: '/' }, React.createElement('a', { className: 'nav-link' }, 'Home')),
-      React.createElement(Link, { href: '/about' }, React.createElement('a', { className: 'nav-link' }, 'About')),
-      React.createElement(Link, { href: '/career-option' }, React.createElement('a', { className: 'nav-link' }, 'Career Option')),
-      React.createElement(Link, { href: '/news' }, React.createElement('a', { className: 'nav-link' }, 'News')),
-      React.createElement(Link, { href: '/contactus' }, React.createElement('a', { className: 'nav-link' }, 'Contact Us'))
+        React.createElement(Link, { href: '/', className: 'nav-link' }, 'Home'),
+        React.createElement(Link, { href: '/about', className: 'nav-link' }, 'About'),
+        React.createElement(Link, { href: '/career-option', className: 'nav-link' }, 'Career Option'),
+        // React.createElement(Link, { href: '/news', className: 'nav-link' }, 'News'),
+        React.createElement(Link, { href: '/contactus', className: 'nav-link' }, 'Contact Us')
     )
   );
 }
